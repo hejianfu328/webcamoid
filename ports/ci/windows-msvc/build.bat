@@ -19,7 +19,7 @@ REM Web-Site: http://webcamoid.github.io/
 if not "%GITHUB_SHA%" == "" set GIT_COMMIT_HASH="%GITHUB_SHA%"
 if not "%CIRRUS_CHANGE_IN_REPO%" == "" set GIT_COMMIT_HASH="%CIRRUS_CHANGE_IN_REPO%"
 
-set QTDIR=C:\Qt\%QTVER%\msvc2019_64
+set QTDIR=C:\Qt\%QTVER%\msvc2022_64
 set TOOLSDIR=C:\Qt\Tools\QtCreator
 
 rem Visual Studio init
