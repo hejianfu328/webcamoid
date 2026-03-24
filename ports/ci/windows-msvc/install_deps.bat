@@ -21,7 +21,7 @@ pip install -U pip
 pip install aqtinstall
 aqt install-qt windows desktop "6.8.0" win64_msvc2022_64 -O "C:\Qt"
 aqt install-tool windows desktop tools_qtcreator -O "C:\Qt"
-set QTDIR=C:\Qt\%QTVER%\msvc2019_64
+set QTDIR=C:\Qt\%QTVER%\msvc2022_64
 set TOOLSDIR=C:\Qt\Tools\QtCreator
 set PATH=%QTDIR%\bin;%TOOLSDIR%\bin;%PATH%
 
