@@ -1,4 +1,4 @@
-# Webcamoid, The ultimate camera suite! #
+# Webcamoid, The ultimate camera suite! # 
 
 [Webcamoid](https://webcamoid.github.io/) is a full featured and multiplatform camera suite.
 
