@@ -19,8 +19,7 @@ REM Web-Site: http://webcamoid.github.io/
 rem Install Qt
 pip install -U pip
 pip install aqtinstall
-#aqt install-qt windows desktop "%QTVER%" win64_msvc2019_64 -O "C:\Qt"
-aqt install-qt windows desktop "6.10.2" win64_msvc2022_64 -O "C:\Qt"
+aqt install-qt windows desktop "6.8.0" win64_msvc2022_64 -O "C:\Qt"
 aqt install-tool windows desktop tools_qtcreator -O "C:\Qt"
 set QTDIR=C:\Qt\%QTVER%\msvc2019_64
 set TOOLSDIR=C:\Qt\Tools\QtCreator
