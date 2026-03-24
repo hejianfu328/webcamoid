@@ -25,7 +25,7 @@ if not "%GIT_BRANCH_NAME%" == "" set GIT_BRANCH_NAME=master
 
 git clone "https://github.com/webcamoid/DeployTools.git"
 
-set QTDIR=C:\Qt\%QTVER%\msvc2019_64
+set QTDIR=C:\Qt\%QTVER%\msvc2022_64
 set TOOLSDIR=C:\Qt\Tools\QtCreator
 set FFMPEG_PATH=%CD%\ffmpeg-%FFMPEG_VERSION%-full_build-shared
 set GSTREAMER_DEV_PATH=C:\gstreamer\1.0\x86_64
